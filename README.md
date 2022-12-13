@@ -1,2 +1,3 @@
 # rsschool-cv
-https://caseyalistergreen.github.io/rsschool-cv/cv
+markdown: https://caseyalistergreen.github.io/rsschool-cv/cv
+html: https://caseyalistergreen.github.io/rsschool-cv/
