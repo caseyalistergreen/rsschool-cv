@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Page Title</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>CV</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="#info">Info</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code example</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <main>
 
-</body>
+        <section id="info">
+            <h2>Info</h2>
+            <img src="assets/img/userpic.jpg" alt="photo" width="100" height="100">
+            <p>Name: Casey Green</p>
+
+        </section>
+        
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <ul>
+            <li>Discord: caseyalistergreen#8069</li>
+            <li>Email: epistolacribite@gmail.com</li>
+          </ul>
+        </section>
+        
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </section>
+
+        <section id="code">
+          <h2>Code example</h2>
+          <pre>
+            <code>
+function getParticipants(handshakes){
+  console.log("handshakes is " + handshakes)
+  let maxShakes = [0];
+  let farmers;
+
+  if (handshakes == 0) {
+    farmers = 0;
+    console.log("farmers is " + farmers +"\n")
+    return farmers;
+  } else for (let i = 0; maxShakes[i]  handshakes; i++) {
+    maxShakes.push(maxShakes[i] + i);
+    farmers = maxShakes.length - 1;
+  };
+  
+  console.log("farmers is " + farmers +"\n")
+  return farmers;
+}
+            </code>
+          </pre>
+        </section>
+
+        <section id="projects">
+          <h2>Projects</h2>
+          <p>
+            <a href="https://www.codewars.com/users/caseyalistergreen/completed">Codewars katas</a>
+          </p>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <p>Bachelor of Psychology. RSSU 2007-2011</p>
+          <p>English: B2</p>
+        </section>
+
+    </main>
+
+    <footer>
+      <ul class="footer">
+        <li><a href="https://github.com/caseyalistergreen">GitHub</a></li>
+        <li>2022</li>
+        <li>
+          <a href="https://rs.school/js/">
+          <img src="assets/img/rsschool-logo.svg" alt="rsschool-logo" width="50">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
